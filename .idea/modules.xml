@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/rockBrain/rockBrain.iml" filepath="$PROJECT_DIR$/rockBrain/rockBrain.iml" />
       <module fileurl="file://$PROJECT_DIR$/rockBrain-android/rockBrain-android.iml" filepath="$PROJECT_DIR$/rockBrain-android/rockBrain-android.iml" />
       <module fileurl="file://$PROJECT_DIR$/rockBrain-desktop/rockBrain-desktop.iml" filepath="$PROJECT_DIR$/rockBrain-desktop/rockBrain-desktop.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rockBrain-html/rockBrain-html.iml" filepath="$PROJECT_DIR$/rockBrain-html/rockBrain-html.iml" />
     </modules>
   </component>
 </project>
