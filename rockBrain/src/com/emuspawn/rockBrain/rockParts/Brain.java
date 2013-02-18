@@ -16,13 +16,17 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 public class Brain {
+    location loc;
+    int beatz = 0;
+    Body body = new Body();  //make the mind a body
+    int brainActivity = 10;  //timer for brain
+    Heart heart = new Heart();
+    Pineal clock = new Pineal();
+    public Brain(int x, int y){
+         placeBrain(x,y);
+    }
 
-    public void brain(){
-        int beatz = 0;
-      Body body = new Body();  //make the mind a body
-      int brainActivity = 10;  //timer for brain
-      Heart heart = new Heart();
-        Pineal clock = new Pineal();
+    public void activity(){
       while(body.alive){
 
        if(heart.beat()){
@@ -58,6 +62,33 @@ public class Brain {
     class organSorter implements Comparator<Organ>{
         public int compare(Organ organ, Organ organ2){
             return organ.stat -  organ2.stat;
+        }
+    }
+    public location getLoc(){
+        return loc;
+    }
+    public class location{
+        int xcor;
+        int ycor;
+        public location(int x, int y){
+        this.xcor = x;
+        this.ycor = y;
+    }
+        public void setLocation(int x, int y){
+            this.xcor = x;
+            this.ycor = y;
+        }
+    }
+    public void placeBrain(int x, int y){
+        location l = new location(x,y);
+        try{
+        if(l == getLoc()){
+           System.out.println("Already occupied!");
+        }
+
+    }
+        catch(Exception e){
+         System.out.println ("FUCK couldn't compare location");
         }
     }
 }

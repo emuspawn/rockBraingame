@@ -2,26 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1de5507-b4d2-43ef-97fc-ce504bae5786" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Body.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Brain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Tasks/Feed.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Objects/Food.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Heart.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Tasks/Kill.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Objects/Object.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Organ.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Pineal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Tasks/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Objects/Toy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rockBrain-android/gen/com/emuspawn/rockBrain/BuildConfig.java" afterPath="$PROJECT_DIR$/rockBrain-android/gen/com/emuspawn/rockBrain/BuildConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Objects/Enviroment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Objects/Tile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Brain.java" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Brain.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rockBrain-desktop/src/com/emuspawn/rockBrain/Main.java" afterPath="$PROJECT_DIR$/rockBrain-desktop/src/com/emuspawn/rockBrain/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rockBrain-android/gen/com/emuspawn/rockBrain/Manifest.java" afterPath="$PROJECT_DIR$/rockBrain-android/gen/com/emuspawn/rockBrain/Manifest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rockBrain-android/gen/com/emuspawn/rockBrain/R.java" afterPath="$PROJECT_DIR$/rockBrain-android/gen/com/emuspawn/rockBrain/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/cortexCycle.java" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/cortexCycle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rockBraingame.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b1de5507-b4d2-43ef-97fc-ce504bae5786" time="1361214712528" ignored="false" />
+    <file path="/Dummy.txt" changelist="b1de5507-b4d2-43ef-97fc-ce504bae5786" time="1361214904844" ignored="false" />
     <file path="/fragment.java" changelist="b1de5507-b4d2-43ef-97fc-ce504bae5786" time="1361214846919" ignored="false" />
     <file path="/lizardBrain.java" changelist="b1de5507-b4d2-43ef-97fc-ce504bae5786" time="1360800791094" ignored="false" />
     <file path="/cortexCycle.java" changelist="b1de5507-b4d2-43ef-97fc-ce504bae5786" time="1360801424017" ignored="false" />
@@ -30,11 +20,13 @@
     <file path="/superEgo.java" changelist="b1de5507-b4d2-43ef-97fc-ce504bae5786" time="1360801037804" ignored="false" />
     <file path="/spatialAwareness.java" changelist="b1de5507-b4d2-43ef-97fc-ce504bae5786" time="1360801043041" ignored="false" />
     <file path="/rockBrain.java" changelist="b1de5507-b4d2-43ef-97fc-ce504bae5786" time="1360801048448" ignored="false" />
-    <file path="/Brain.java" changelist="b1de5507-b4d2-43ef-97fc-ce504bae5786" time="1361214535207" ignored="false" />
-    <file path="/Main.java" changelist="b1de5507-b4d2-43ef-97fc-ce504bae5786" time="1361214576427" ignored="false" />
+    <file path="/Brain.java" changelist="b1de5507-b4d2-43ef-97fc-ce504bae5786" time="1361221929232" ignored="false" />
+    <file path="/Main.java" changelist="b1de5507-b4d2-43ef-97fc-ce504bae5786" time="1361220746679" ignored="false" />
     <file path="/Body.java" changelist="b1de5507-b4d2-43ef-97fc-ce504bae5786" time="1361214560985" ignored="false" />
     <file path="/Feed.java" changelist="b1de5507-b4d2-43ef-97fc-ce504bae5786" time="1361214638770" ignored="false" />
     <file path="/Object.java" changelist="b1de5507-b4d2-43ef-97fc-ce504bae5786" time="1361214769479" ignored="false" />
+    <file path="/Enviroment.java" changelist="b1de5507-b4d2-43ef-97fc-ce504bae5786" time="1361221784883" ignored="false" />
+    <file path="/Tile.java" changelist="b1de5507-b4d2-43ef-97fc-ce504bae5786" time="1361221125844" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,11 +85,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rockBrain-desktop/src/com/emuspawn/rockBrain/Main.java">
+      <file leaf-file-name="Enviroment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Objects/Enviroment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="22" selection-start="535" selection-end="535" vertical-scroll-proportion="0.39338842">
+            <state line="19" column="7" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Brain.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Brain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="36" selection-start="666" selection-end="666" vertical-scroll-proportion="0.29791895">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1325#1332#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,7 +122,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Working" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -130,12 +134,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/superEgo.java" />
-        <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/spatialAwareness.java" />
         <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockBrain.java" />
-        <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/cortexCycle.java" />
         <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Pineal.java" />
-        <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Brain.java" />
         <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Body.java" />
         <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Tasks/Task.java" />
         <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Tasks/Feed.java" />
@@ -145,7 +145,11 @@
         <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Heart.java" />
         <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Organ.java" />
         <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Tasks/Kill.java" />
+        <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/cortexCycle.java" />
         <option value="$PROJECT_DIR$/rockBrain-desktop/src/com/emuspawn/rockBrain/Main.java" />
+        <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Objects/Tile.java" />
+        <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Objects/Enviroment.java" />
+        <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Brain.java" />
       </list>
     </option>
   </component>
@@ -162,7 +166,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -197,7 +201,111 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="rockBrain-desktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rockBraingame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rockBrain-desktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="rockBrain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rockBraingame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rockBrain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rockBraingame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rockBrain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rockBraingame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rockBrain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rockBrain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rockBraingame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rockBrain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rockBrain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rockParts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rockBraingame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rockBrain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rockBrain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Objects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -378,14 +486,18 @@
       <created>1360802051131</created>
       <updated>1360802051131</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added in the betterBrain. System log is on by default. Now I can make it visualize in the libgdx window!">
+      <created>1361214915957</created>
+      <updated>1361214915957</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32800853" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -400,7 +512,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24944812" sideWeight="0.67199147" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32800853" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32800853" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -472,20 +584,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/tick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/lizardBrain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="84" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/frontBrain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
@@ -497,23 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="13" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/cortexCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="26" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Brain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="63" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1254#1261#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -556,13 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Heart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="11" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Organ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
@@ -584,10 +658,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Objects/Tile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="32" selection-start="388" selection-end="388" vertical-scroll-proportion="0.26067907">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rockBrain-desktop/src/com/emuspawn/rockBrain/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="535" selection-end="535" vertical-scroll-proportion="0.39338842">
+        <state line="18" column="22" selection-start="600" selection-end="600" vertical-scroll-proportion="0.33515882">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/cortexCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="84" selection-start="876" selection-end="876" vertical-scroll-proportion="0.48411828">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Heart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="67" selection-start="485" selection-end="485" vertical-scroll-proportion="0.37239867">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Objects/Enviroment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="7" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Brain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="36" selection-start="666" selection-end="666" vertical-scroll-proportion="0.29791895">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1325#1332#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -2,6 +2,7 @@ package com.emuspawn.rockBrain;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
+import com.emuspawn.rockBrain.Objects.Enviroment;
 import com.emuspawn.rockBrain.rockParts.Brain;
 
 public class Main {
@@ -11,9 +12,10 @@ public class Main {
 		cfg.useGL20 = false;
 		cfg.width = 1280;
 		cfg.height = 720;
-		Brain brain = new Brain();
+
 
 		new LwjglApplication(new cortexCycle(), cfg);
-        brain.brain();
+        Enviroment lab = new Enviroment();
+        lab.genesis();
 	}
 }
