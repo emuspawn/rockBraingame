@@ -11,6 +11,7 @@ public class Tile {
     int pos;
     int type = 0; //default type
     int occupied =0; //not occupied by default, of course.
+
     public Tile(int location, int type){
         this.pos = location;
         this.type = type;

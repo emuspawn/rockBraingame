@@ -17,5 +17,6 @@ public class Main {
 		new LwjglApplication(new cortexCycle(), cfg);
         Enviroment lab = new Enviroment();
         lab.genesis();
+        lab.live();
 	}
 }

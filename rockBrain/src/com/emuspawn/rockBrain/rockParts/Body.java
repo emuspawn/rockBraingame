@@ -26,6 +26,7 @@ public class Body {
     Organ Thirst= new Organ("Thirst",4,5,0);
     Organ Fun= new Organ("Fun",5,15,0);
     Organ[] organs = {HP,Food,Sleep,Thirst,Fun};
+
     public Body() {
 
 
@@ -73,23 +74,22 @@ public void bodyCycle(){
         killHP();
     }
    else if(getFood()<=Food.maxStat-5){
-        Food bagel = new Food();
-        feedMe(bagel);
+        feedMe();
     }
 
     System.out.println("thump thump." + this.getHP() + " many heartbeats left. Food: " + this.getFood() + "Fun: " + this.getFun());
 }
-public void feedMe(Food f){
-    int timeLeft = f.time;
-    while(timeLeft>=0){
-        this.setHP(f.HP);
-        this.setFood(f.HP);
-        bodyEqualize();
-        System.out.println(this.getName() + " is eating " + f.name + "(" + timeLeft + "/" + f.time + ")\nHP: " + this.getHP() );
-        timeLeft--;
-    }
+public void feedMe(){
+//TODO Make feedMe() look for food, then eat.
+    //Check known locations for food.
+    // knownLocations.foodSource();
+    // will return
+
     System.out.println("I've Been fed!");
-}
+
+    }
+
+
     public void funMe(Toy f){
         int timeLeft = f.time;
         while(timeLeft>=0){
