@@ -2,15 +2,18 @@ package com.emuspawn.rockBrain;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
+import com.emuspawn.rockBrain.rockParts.Brain;
 
 public class Main {
 	public static void main(String[] args) {
 		LwjglApplicationConfiguration cfg = new LwjglApplicationConfiguration();
 		cfg.title = "rockBrain";
 		cfg.useGL20 = false;
-		cfg.width = 480;
-		cfg.height = 320;
-		
+		cfg.width = 1280;
+		cfg.height = 720;
+		Brain brain = new Brain();
+
 		new LwjglApplication(new cortexCycle(), cfg);
+        brain.brain();
 	}
 }
