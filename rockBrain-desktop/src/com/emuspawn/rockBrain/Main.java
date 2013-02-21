@@ -3,7 +3,6 @@ package com.emuspawn.rockBrain;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
 import com.emuspawn.rockBrain.Objects.Enviroment;
-import com.emuspawn.rockBrain.rockParts.Brain;
 
 public class Main {
 	public static void main(String[] args) {
@@ -14,7 +13,7 @@ public class Main {
 		cfg.height = 720;
 
 
-		new LwjglApplication(new cortexCycle(), cfg);
+		new LwjglApplication(new Rock(), cfg);
         Enviroment lab = new Enviroment();
         lab.genesis();
         lab.live();

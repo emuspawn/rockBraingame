@@ -10,7 +10,7 @@ import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 
-public class rockBrain implements ApplicationListener {
+public class Rock implements ApplicationListener {
 	private OrthographicCamera camera;
 	private SpriteBatch batch;
 	private Texture texture;
@@ -24,10 +24,10 @@ public class rockBrain implements ApplicationListener {
 		camera = new OrthographicCamera(1, h/w);
 		batch = new SpriteBatch();
 		
-		texture = new Texture(Gdx.files.internal("data/libgdx.png"));
+		texture = new Texture(Gdx.files.internal("data/rockStats1.png"));
 		texture.setFilter(TextureFilter.Linear, TextureFilter.Linear);
 		
-		TextureRegion region = new TextureRegion(texture, 0, 0, 512, 275);
+		TextureRegion region = new TextureRegion(texture, 0, 0, 1280, 720);
 		
 		sprite = new Sprite(region);
 		sprite.setSize(0.9f, 0.9f * sprite.getHeight() / sprite.getWidth());
@@ -42,7 +42,7 @@ public class rockBrain implements ApplicationListener {
 	}
 
 	@Override
-	public void render() {		
+        public void render() {
 		Gdx.gl.glClearColor(1, 1, 1, 1);
 		Gdx.gl.glClear(GL10.GL_COLOR_BUFFER_BIT);
 		

@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1de5507-b4d2-43ef-97fc-ce504bae5786" name="Default" comment="Started making changes on giving 'the world' a pulse">
+    <list default="true" id="b1de5507-b4d2-43ef-97fc-ce504bae5786" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\David\Programming\rockBraingame\rockBrain\src\com\emuspawn\rockBrain\frontBrain.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Programming\rockBraingame\rockBrain\src\com\emuspawn\rockBrain\lizardBrain.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Programming\rockBraingame\rockBrain\src\com\emuspawn\rockBrain\rockBrain.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Programming\rockBraingame\rockBrain\src\com\emuspawn\rockBrain\spatialAwareness.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Programming\rockBraingame\rockBrain\src\com\emuspawn\rockBrain\superEgo.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Programming\rockBraingame\rockBrain\src\com\emuspawn\rockBrain\tick.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\David\Programming\rockBraingame\rockBrain\src\com\emuspawn\rockBrain\cortexCycle.java" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Rock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rockBrain-desktop/src/com/emuspawn/rockBrain/Main.java" afterPath="$PROJECT_DIR$/rockBrain-desktop/src/com/emuspawn/rockBrain/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rockBrain-android/src/com/emuspawn/rockBrain/MainActivity.java" afterPath="$PROJECT_DIR$/rockBrain-android/src/com/emuspawn/rockBrain/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rockBraingame.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b1de5507-b4d2-43ef-97fc-ce504bae5786" time="1361474050102" ignored="false" />
+    <file path="/Dummy.txt" changelist="b1de5507-b4d2-43ef-97fc-ce504bae5786" time="1361474294791" ignored="false" />
     <file path="/fragment.java" changelist="b1de5507-b4d2-43ef-97fc-ce504bae5786" time="1361214846919" ignored="false" />
     <file path="/lizardBrain.java" changelist="b1de5507-b4d2-43ef-97fc-ce504bae5786" time="1360800791094" ignored="false" />
     <file path="/cortexCycle.java" changelist="b1de5507-b4d2-43ef-97fc-ce504bae5786" time="1360801424017" ignored="false" />
@@ -30,6 +39,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CodeExplorer">
+    <option name="filters">
+      <list>
+        <LibraryFilter />
+      </list>
+    </option>
+    <option name="showMethodBody" value="true" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -37,7 +54,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -72,6 +88,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -84,7 +101,7 @@
       <file leaf-file-name="Enviroment.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Objects/Enviroment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="65" selection-start="486" selection-end="486" vertical-scroll-proportion="0.369028">
+            <state line="14" column="30" selection-start="392" selection-end="392" vertical-scroll-proportion="0.3726813">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,7 +121,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rockBrain-desktop/src/com/emuspawn/rockBrain/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="19" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0">
+            <state line="18" column="19" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -194,10 +211,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="-8" />
-    <option name="width" value="1874" />
-    <option name="height" value="1096" />
+    <option name="x" value="56" />
+    <option name="width" value="1858" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -367,9 +383,9 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -389,6 +405,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -416,19 +445,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -477,7 +493,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="rockBrain-desktop" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -542,7 +564,11 @@
       <created>1361228226518</created>
       <updated>1361228226518</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added a background?">
+      <created>1361474111994</created>
+      <updated>1361474111994</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -566,28 +592,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="56" y="0" width="1858" height="1080" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32731137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33261105" sideWeight="0.49777284" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.49777284" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Code explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997833" sideWeight="0.49777284" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32936078" sideWeight="0.4983296" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32731137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24944812" sideWeight="0.6726886" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.49777284" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2516704" sideWeight="0.6706392" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28221512" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -630,7 +658,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started making changes on giving 'the world' a pulse" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a background?" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -648,6 +676,7 @@
     <MESSAGE value="More fixing" />
     <MESSAGE value="Added in the betterBrain. System log is on by default. Now I can make it visualize in the libgdx window!" />
     <MESSAGE value="Started making changes on giving 'the world' a pulse" />
+    <MESSAGE value="added a background?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -700,7 +729,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/cortexCycle.java">
+    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Rock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="84" selection-start="876" selection-end="876" vertical-scroll-proportion="0.48411828">
           <folding>
@@ -718,7 +747,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rockBrain-desktop/src/com/emuspawn/rockBrain/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="19" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0">
+        <state line="18" column="19" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -760,7 +789,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Objects/Enviroment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="65" selection-start="486" selection-end="486" vertical-scroll-proportion="0.369028">
+        <state line="14" column="30" selection-start="392" selection-end="392" vertical-scroll-proportion="0.3726813">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
