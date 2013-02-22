@@ -1,7 +1,10 @@
 package com.emuspawn.rockBrain.Objects;
 
-import com.emuspawn.rockBrain.rockParts.Brain;
-import com.emuspawn.rockBrain.rockParts.Heart;
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.g2d.tiled.TiledLayer;
+import com.badlogic.gdx.graphics.g2d.tiled.TiledLoader;
+import com.badlogic.gdx.graphics.g2d.tiled.TiledMap;
+import com.emuspawn.rockBrain.rockParts.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -11,43 +14,11 @@ import com.emuspawn.rockBrain.rockParts.Heart;
  * To change this template use File | Settings | File Templates.
  */
 public class Enviroment {
+    Brain[]  brain = new Brain[3];     //THERE ARE THREE BRAINS
     Boolean heatDeath = true; //end the world?
-    Tile[] xcor = new Tile[5];
-    Tile[] ycor= new Tile[5];
-    Brain brain1;
-    FoodDispensor food = new FoodDispensor();
+
     public void genesis(){
-        //make The Grid
-        for(int i =0;i<xcor.length;i++){
-            xcor[i] = new Tile(i, 0);
-        }
-        for(int i =0;i<ycor.length;i++){
-            ycor[i] = new Tile(i, 0);
-        }
-        //Should be 'add user data here', amirite. Test data!
-        brain1 = new Brain(3,3);
-
-        System.out.println("brain created");
-        brain1.placeBrain(4,4);
-        System.out.println("brain placed");
-        placeObject(food, 5,5);
+          System.out.println("It's alive!");
     }
-    public void live(){
-        while(heatDeath){
-            Heart spirit = new Heart();
 
-           brain1.activity();
-        }
-
-    }
-    public void moveBrain(Brain b, int posx, int posy){
-
-
-
-    }
-     public void placeObject(Object o,int x, int y){
-         o.x =x;
-         o.y = y;
-
-     }
 }

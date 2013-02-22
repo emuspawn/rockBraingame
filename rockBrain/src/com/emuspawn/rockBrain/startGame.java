@@ -9,15 +9,21 @@ import com.badlogic.gdx.graphics.Texture.TextureFilter;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.badlogic.gdx.graphics.g2d.tiled.TiledLoader;
+import com.badlogic.gdx.graphics.g2d.tiled.TiledMap;
+import com.emuspawn.rockBrain.Objects.Enviroment;
 
-public class Rock implements ApplicationListener {
+public class startGame implements ApplicationListener {
 	private OrthographicCamera camera;
 	private SpriteBatch batch;
 	private Texture texture;
 	private Sprite sprite;
 	
 	@Override
-	public void create() {		
+	public void create() {
+        TiledMap tiledMap = TiledLoader.createMap(Gdx.files.internal("maps/grass.tmx"));
+        Enviroment lab = new Enviroment();
+        lab.genesis();
 		float w = Gdx.graphics.getWidth();
 		float h = Gdx.graphics.getHeight();
 		

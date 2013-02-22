@@ -13,9 +13,7 @@ public class Main {
 		cfg.height = 720;
 
 
-		new LwjglApplication(new Rock(), cfg);
-        Enviroment lab = new Enviroment();
-        lab.genesis();
-        lab.live();
+		new LwjglApplication(new startGame(), cfg);
+
 	}
 }

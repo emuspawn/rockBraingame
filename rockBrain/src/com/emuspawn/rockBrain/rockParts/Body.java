@@ -13,7 +13,7 @@ import java.util.Arrays;
  * To change this template use File | Settings | File Templates.
  */
 public class Body {
-    String name = "Rock";
+    String name = "startGame";
     Boolean alive = true;
 
 
