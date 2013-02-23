@@ -22,8 +22,8 @@ public class Brain {
     int brainActivity = 10;  //timer for brain
     Heart heart = new Heart();
     Pineal clock = new Pineal();
-    public Brain(int x, int y){
-         placeBrain(x,y);
+    public Brain(){
+
     }
 
     public void activity(){

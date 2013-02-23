@@ -14,11 +14,17 @@ import com.emuspawn.rockBrain.rockParts.*;
  * To change this template use File | Settings | File Templates.
  */
 public class Enviroment {
-    Brain[]  brain = new Brain[3];     //THERE ARE THREE BRAINS
+    Rock[]  rockList = new Rock[3];     //THERE ARE THREE BRAINS
     Boolean heatDeath = true; //end the world?
 
     public void genesis(){
           System.out.println("It's alive!");
     }
+    public void createRock(){                           //click a button to add a rock
+        for(int i = 0;rockList[i].empty();i++){
+        rockList[i] = new Rock();
+        rockList[i].genesis(0,0);
 
-}
+
+
+} }  }
