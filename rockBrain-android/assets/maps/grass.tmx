@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><map height="7" orientation="orthogonal" tileheight="50" tilewidth="50" version="1.0" width="12"><properties><property name="blended tiles" value=""/></properties>
+ <tileset firstgid="1" name="Grass" tileheight="50" tilewidth="50">
+  <image height="128" source="CircleTextures/B000M800.BMP" width="128"/>
+ </tileset>
+ <tileset firstgid="5" name="brick" tileheight="50" tilewidth="50">
+  <image height="128" source="CircleTextures/S200M800.BMP" width="128"/>
+ </tileset>
+ <layer height="7" name="Tile Layer 1" width="12">
+  <data compression="zlib" encoding="base64">
+   eJxjZGBgYAJiRiJpZiBmoYAm1h5y7SPVfGrbDwCFyADP
+  </data>
+ </layer>
+</map>

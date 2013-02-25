@@ -1,0 +1,33 @@
+
+B000M8001.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+B000M800
+  rotate: false
+  xy: 2, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 3
+B000M800
+  rotate: false
+  xy: 54, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 2
+B000M800
+  rotate: false
+  xy: 2, 54
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 1
+B000M800
+  rotate: false
+  xy: 54, 54
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 0
