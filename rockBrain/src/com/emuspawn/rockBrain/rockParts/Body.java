@@ -15,11 +15,6 @@ import java.util.Arrays;
 public class Body {
     String name = "startGame";
     Boolean alive = true;
-
-
-
-
-
     Organ HP = new Organ("HP",1,10,0);
     Organ Food= new Organ("Food",2,10,0);
     Organ Sleep= new Organ("Sleep",3,5,0);
