@@ -6,10 +6,10 @@ import java.util.HashMap;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.emuspawn.rockBrain.Objects.Stats;
-import com.emuspawn.rockBrain.Screens.Screen;
 
 
 public class Game implements ApplicationListener {
@@ -39,35 +39,10 @@ public class Game implements ApplicationListener {
         screenClassName = "com.emuspawn.rockBrain.Screens."+screenClassName;
         Screen newScreen = null;
 
-        if (_screens.containsKey(screenClassName) == false) {
 
-            try {
-                Class screenClass =  Class.forName(screenClassName);
-                Constructor constructor = screenClass.getConstructor(Game.class);
-                newScreen = (Screen) constructor.newInstance(this);
-                _screens.put(screenClassName, newScreen);
-            } catch ( InvocationTargetException ex ){
-                System.err.println( ex + " Screen with Wrong args in Constructor.");
-            } catch ( NoSuchMethodException ex ){
-            } catch ( ClassNotFoundException ex ){
-                System.err.println( ex + " Screen Class Not Found.");
-            } catch( InstantiationException ex ){
-                System.err.println( ex + " Screen Must be a concrete class.");
-            } catch( IllegalAccessException ex ){
-                System.err.println( ex + " Screen with Wrong number of args.");
-            }
-        } else {
             newScreen = _screens.get(screenClassName);
-        }
 
-        if (newScreen == null) return;
 
-        if (screen != null) {
-            //remove current screen!
-            screen.destroy();
-        }
-        screen = newScreen;
-        screen.createScreen();
 
     }
 

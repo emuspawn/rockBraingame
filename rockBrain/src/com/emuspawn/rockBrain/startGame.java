@@ -1,61 +1,60 @@
 package com.emuspawn.rockBrain;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.GL10;
-import com.badlogic.gdx.graphics.GLCommon;
-import com.badlogic.gdx.graphics.OrthographicCamera;
+import com.badlogic.gdx.audio.Sound;
+import com.badlogic.gdx.graphics.*;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.emuspawn.rockBrain.Objects.ImageCache;
-import com.emuspawn.rockBrain.Objects.Sounds;
-import com.emuspawn.rockBrain.Objects.Stats;
-import com.emuspawn.rockBrain.Tasks.*;
-
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.math.Rectangle;
+import com.emuspawn.rockBrain.Tasks.Game;
 
 public class startGame extends Game {
-
+     Sound rockSound;
+    SpriteBatch batch;
+    Texture sheet;
+    TextureAtlas atlas;
+    Rectangle rock1;
+    OrthographicCamera camera;
     @Override
     public void create() {
 
         super.create();
-
+        batch = new SpriteBatch();
         camera = new OrthographicCamera(1280, 720);
         camera.position.set(1280 * 0.5f, 720 * 0.5f, 0);
-
-        screenWidth = 1280;
-        screenHeight = 720;
-
-        Sounds.load();
-        ImageCache.load();
-
-        Stats stats = new Stats(this);
-        spriteBatch = new SpriteBatch();
-
         setScreen("MenuScreen");
+        rockSound = Gdx.audio.newSound(Gdx.files.internal("sounds/rock.wav"));
+        atlas = new TextureAtlas(Gdx.files.internal("textures/rockTexture.txt"), Gdx.files.internal("textures"));
 
+
+        rock1 = new Rectangle();
+        rock1.x = 50;
+        rock1.y = 50;
+        rock1.width = 50;
+        rock1.height = 50;
     }
 
     @Override
     public void dispose() {
-        if (screen != null) screen.dispose();
     }
 
     @Override
     public void pause() {
-        if (screen != null) screen.pause();
+
     }
 
     @Override
     public void render() {
-        if (screen != null) {
-            screen.update(Gdx.graphics.getDeltaTime());
-        } else {
 
-            GLCommon gl = Gdx.gl;
-            gl.glClearColor(0, 0, 0, 1);
-            gl.glClear(GL10.GL_COLOR_BUFFER_BIT);
-        }
-    }
 
+        Gdx.gl.glClearColor(3, 0, 0.2f, 1);
+        Gdx.gl.glClear(GL10.GL_COLOR_BUFFER_BIT);
+        batch.setProjectionMatrix(camera.combined);
+        batch.begin();
+        batch.draw(atlas.findRegion("rock1"), rock1.x, rock1.y);
+
+       batch.end();
+}
     @Override
     public void resize(int arg0, int arg1) {
 
@@ -63,6 +62,6 @@ public class startGame extends Game {
 
     @Override
     public void resume() {
-        if (screen != null) screen.resume();
+
     }
 }
