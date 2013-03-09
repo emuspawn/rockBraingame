@@ -27,7 +27,7 @@ public class Brain {
     }
 
     public void activity(){
-      while(body.alive){
+      if(body.alive){
 
        if(heart.beat()){
 
@@ -45,10 +45,10 @@ public class Brain {
          //   else{System.out.println("nope");}         //Debug
 
         }
-
+        else if (body.alive = false){
         System.out.println("Death");
         }
-
+    }
 
 
     public void judge(Body b){
@@ -90,6 +90,17 @@ public class Brain {
         catch(Exception e){
          System.out.println ("FUCK couldn't compare location");
         }
+    }
+    public String getStats(){
+        int x = body.getFood();
+        int y = body.getHP();
+        int z = body.getThirst();
+        if (body.alive){
+        String stats = "Food is " + x + ". HP is " + y + ". Thirst is " +z;
+         return stats;
+    }
+        else
+                return "Rock is dead";
     }
 }
 
