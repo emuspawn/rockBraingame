@@ -37,7 +37,7 @@ public class Brain {
         body.judge(body);
         body.bodyEqualize();
            body.fullReport(body);
-           clock.whenBedTime();
+
 
         beatz++;
 

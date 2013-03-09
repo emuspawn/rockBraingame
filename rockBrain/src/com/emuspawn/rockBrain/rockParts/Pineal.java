@@ -10,10 +10,5 @@ import java.util.Date;
  * To change this template use File | Settings | File Templates.
  */
 public class Pineal {
-   Date clock = new Date();
-    SimpleDateFormat bedTime = new SimpleDateFormat("HH.mm");
 
-    public void whenBedTime(){
-        System.out.println(bedTime.format(clock));
-    }
 }
