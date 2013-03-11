@@ -22,7 +22,8 @@ public Rock genesis(int locationX, int locationY){
     Brain brain = new Brain();
     return this;
 }
-    public boolean empty(){
-        return empty;
+public void on(){
+        body.bodyCycle();
+        brain.activity();
     }
 }

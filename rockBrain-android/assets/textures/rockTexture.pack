@@ -1,0 +1,110 @@
+
+rockTexture.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+gardenBG
+  rotate: false
+  xy: 1, 1
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+titleBG
+  rotate: false
+  xy: 503, 1
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+rock2
+  rotate: false
+  xy: 1005, 181
+  size: 253, 320
+  orig: 253, 320
+  offset: 0, 0
+  index: -1
+enerGarden
+  rotate: false
+  xy: 1005, 129
+  size: 250, 50
+  orig: 250, 50
+  offset: 0, 0
+  index: -1
+feedMe
+  rotate: false
+  xy: 1260, 451
+  size: 250, 50
+  orig: 250, 50
+  offset: 0, 0
+  index: -1
+killMe
+  rotate: false
+  xy: 1005, 77
+  size: 250, 50
+  orig: 250, 50
+  offset: 0, 0
+  index: -1
+newRock
+  rotate: false
+  xy: 1260, 399
+  size: 250, 50
+  orig: 250, 50
+  offset: 0, 0
+  index: -1
+playMe
+  rotate: false
+  xy: 1512, 451
+  size: 250, 50
+  orig: 250, 50
+  offset: 0, 0
+  index: -1
+quitMe
+  rotate: false
+  xy: 1005, 25
+  size: 250, 50
+  orig: 250, 50
+  offset: 0, 0
+  index: -1
+saveMe
+  rotate: false
+  xy: 1260, 347
+  size: 250, 50
+  orig: 250, 50
+  offset: 0, 0
+  index: -1
+settingButton
+  rotate: false
+  xy: 1512, 399
+  size: 250, 50
+  orig: 250, 50
+  offset: 0, 0
+  index: -1
+startGarden
+  rotate: false
+  xy: 1764, 451
+  size: 250, 50
+  orig: 250, 50
+  offset: 0, 0
+  index: -1
+statsMe
+  rotate: false
+  xy: 1260, 295
+  size: 250, 50
+  orig: 250, 50
+  offset: 0, 0
+  index: -1
+rock1
+  rotate: false
+  xy: 1260, 139
+  size: 200, 154
+  orig: 200, 154
+  offset: 0, 0
+  index: -1
+rock3
+  rotate: false
+  xy: 1512, 307
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1

@@ -7,6 +7,7 @@ public class Organ implements Comparable{
     public int stat;
     public int maxStat;
     public int specMod;
+    public int tick;
      public Organ(String name, int oid, int stat, int specMod){
          this.OID = oid;
          this.stat = stat;
@@ -25,4 +26,5 @@ public class Organ implements Comparable{
         }
         return 0;
     }
+
 }
