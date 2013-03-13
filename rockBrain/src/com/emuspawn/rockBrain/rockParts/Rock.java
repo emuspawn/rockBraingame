@@ -13,16 +13,20 @@ public class Rock {
     int locX;
     int locY;
     int currentTask;
+    public String[] thought = {"dial tone", "dial tone", "dial tone", "dial tone", "dial tone"};
     Body body = new Body();
-    Brain brain = new Brain();
+    public Brain brain = new Brain();
     public Heart heart = new Heart();
     Boolean empty = true;
 
     public void on() {
         if (heart.beat()) {
             body.bodyCycle();
-            brain.activity();
-            System.out.println(getStats());
+            body.bodyEqualize();
+            for (int i = 0; i < 5; i++) {
+                thought[i] = brain.memory(i);
+            }
+
 
         }
     }
@@ -32,12 +36,10 @@ public class Rock {
         locY = y + locY;
     }
 
-    public String getStats() {
-        String com = new String();
-        for (int q = 0; q < this.body.organs.length; q++) {
-            // this.body.organs[q].name + ": " + this.body.organs[q].stat; + "\n"
-            com += this.body.organs[q].name + ": " + this.body.organs[q].stat + "\n";
-        }
+    public String getStats(int i) {
+        String com = new String(this.body.organs[i].name + ": " + this.body.organs[i].stat);
+
+
         return com;
     }
 

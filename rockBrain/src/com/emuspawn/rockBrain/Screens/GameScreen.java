@@ -21,8 +21,8 @@ public class GameScreen implements Screen {
     OrthographicCamera guiCam;
     Rectangle enterGarden;
     gDraw g;
-    String rockStatus;
-    String status;
+    String[] rockThought = {"offline", "offline", "offline", "offline", "offline"};
+    String[] status = {"nope", "nope", "nope", "nope", "nope"};
     GameSprite backButton;
     BitmapFont rockfont = new BitmapFont(Gdx.files.internal("fonts/rockFont.fnt"),
             Gdx.files.internal("fonts/rockFont_0.png"), false);
@@ -41,7 +41,6 @@ public class GameScreen implements Screen {
         enterGarden = new Rectangle(0, 0, 50, 50);
         g = new gDraw(this);
         backButton = new GameSprite("back", 25, 25);
-        status = new String("no clicks");
         rock = new Rock();
 
     }
@@ -83,7 +82,17 @@ public class GameScreen implements Screen {
         g.enableBlending();
         g.begin();
         g.g(backButton);
-        rockfont.draw(g, status, 0, 450);
+        rockfont.draw(g, status[0], 0, 50);
+        rockfont.draw(g, status[1], 0, 100);
+        rockfont.draw(g, status[2], 0, 150);
+        rockfont.draw(g, status[3], 0, 200);
+        rockfont.draw(g, status[4], 0, 250);
+        rockfont.draw(g, rockThought[0], 250, 425);
+        rockfont.draw(g, rockThought[1], 250, 375);
+        rockfont.draw(g, rockThought[2], 250, 325);
+        rockfont.draw(g, rockThought[3], 250, 275);
+        rockfont.draw(g, rockThought[4], 250, 225);
+
         g.end();
     }
 
@@ -91,11 +100,17 @@ public class GameScreen implements Screen {
 
         //Rock bullshit
         rock.on();
-        status = rock.getStats();
+        for (int q = 0; q <= 4; q++) {
+            status[q] = rock.getStats(q);
+        }
+        for (int q = 0; q < 5; q++) {
+            rockThought[q] = rock.thought[q];
+        }
+
 
         if (Gdx.input.justTouched()) {
             guiCam.unproject(touchPoint.set(Gdx.input.getX(), Gdx.input.getY(), 0));
-            status = "Clicked mouse at x: " + touchPoint.x + " y: " + touchPoint.y;
+            //status = "Clicked mouse at x: " + touchPoint.x + " y: " + touchPoint.y;
 
             if (OverlapTester.pointInRectangle(backButton, touchPoint.x, touchPoint.y)) {
                 Sounds.alert.play();
