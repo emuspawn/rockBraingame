@@ -5,7 +5,7 @@ import com.badlogic.gdx.Game;
 import com.emuspawn.rockBrain.GameParts.Art;
 import com.emuspawn.rockBrain.GameParts.GameData;
 import com.emuspawn.rockBrain.GameParts.Sounds;
-import com.emuspawn.rockBrain.Screens.MenuScreen;
+import com.emuspawn.rockBrain.Screens.TestScreen;
 
 
 public class rockBrain extends Game {
@@ -14,7 +14,7 @@ public class rockBrain extends Game {
         Sounds.load();
         Art.load();
         GameData.load();
-        setScreen(new MenuScreen(this));
+        setScreen(new TestScreen(this));
 
     }
 

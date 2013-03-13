@@ -8,7 +8,22 @@ package com.emuspawn.rockBrain.GameParts;
  * To change this template use File | Settings | File Templates.
  */
 public class GameData {
-    public static void load(){
-        String status = "loaded";
+    Boolean gameExists = false;
+
+    public void load() {
+        if (gameExists) {
+            // Load file blah blah
+            // New lab = file.lab
+            // sandsoftime();   //checks lastTime vs newTime, runs linear update of stats.
+        }
+    }
+
+    public class checkgame {
+        //return file(Gdx.files.internal(save.rck)).exists = true;
+    }
+
+    public class sandsofTime {
+        // int timePassed = TimeNow - lab.lastSaved;
+        //  lab.erode(timePassed);
     }
 }

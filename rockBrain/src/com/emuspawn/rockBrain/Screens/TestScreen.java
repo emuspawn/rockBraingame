@@ -7,10 +7,13 @@ import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL10;
 import com.badlogic.gdx.graphics.GLCommon;
 import com.badlogic.gdx.graphics.OrthographicCamera;
+import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.math.Vector3;
 import com.emuspawn.rockBrain.GameParts.Art;
 import com.emuspawn.rockBrain.GameParts.GameSprite;
+import com.emuspawn.rockBrain.GameParts.OverlapTester;
 import com.emuspawn.rockBrain.GameParts.gDraw;
+import com.emuspawn.rockBrain.rockParts.Rock;
 
 
 public class TestScreen implements Screen {
@@ -18,25 +21,39 @@ public class TestScreen implements Screen {
     Vector3 touchPoint;
     OrthographicCamera guiCam;
     gDraw gDraw;
-    GameSprite enterbutton;
-    GameSprite settings;
+    GameSprite quitbutton;
+    Boolean once;
+    Rock rock;
 
     public TestScreen(Game game) {
+        once = true;
         this.game = game;
         guiCam = new OrthographicCamera(500, 500);
         guiCam.position.set(500 / 2, 500 / 2, 0);
         touchPoint = new Vector3();
-
-        enterbutton = new GameSprite("enerGarden", 250, 250);
-        settings = new GameSprite("settingButton", 250, 200);
+        quitbutton = new GameSprite("quitMe", 250, 475);
         gDraw = new gDraw(this);
+        BitmapFont rockfont = new BitmapFont(Gdx.files.internal("fonts/rockFont.fnt"),
+                Gdx.files.internal("fonts/rockFont_0.png"), false);
+        rock = new Rock();
     }
 
     public void update(float deltaTime) {
 
+        if (once) {
+            rock.genesis();
+            System.out.println(rock.getFeels(rock.weather, 5));
+            once = false;
+        }
+        if (Gdx.input.justTouched()) {
+            guiCam.unproject(touchPoint.set(Gdx.input.getX(), Gdx.input.getY(), 0));
+            if (OverlapTester.pointInRectangle(quitbutton, touchPoint.x, touchPoint.y)) {
+                Gdx.app.exit();
+                return;
+            }
+        }
 
     }
-
 
     public void draw(float deltaTime) {
         GLCommon gl = Gdx.gl;
@@ -50,8 +67,7 @@ public class TestScreen implements Screen {
         gDraw.end();
         gDraw.enableBlending();
         gDraw.begin();
-        gDraw.g(enterbutton);
-        gDraw.g(settings);
+        gDraw.g(quitbutton);
         gDraw.end();
     }
 
