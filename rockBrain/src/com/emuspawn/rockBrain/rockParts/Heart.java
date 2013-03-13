@@ -8,30 +8,31 @@ public class Heart {
     Boolean update = false;
     Calendar heart = Calendar.getInstance();
     long timeNow = heart.getTimeInMillis();
-    long lastUpdate=heart.getTimeInMillis();
-    double timePassed=0;
-    public  Heart(){
+    long lastUpdate = heart.getTimeInMillis();
+    double timePassed = 0;
+
+    public Heart() {
 
     }
-    public Heart(int i){
-      int cycles = i;
+
+    public Heart(int i) {
+        int cycles = i;
     }
 
-    public boolean beat(){
-     Calendar beat = Calendar.getInstance();
-     timeNow = beat.getTimeInMillis();
-     timePassed = timeNow - lastUpdate;
-        if(timePassed<=(1000/cycles)){
+    public boolean beat() {
+        Calendar beat = Calendar.getInstance();
+        timeNow = beat.getTimeInMillis();
+        timePassed = timeNow - lastUpdate;
+        if (timePassed <= (1000 / cycles)) {
             update = false;
 
             return update;
 
-        }
-    else{
-            update=true;
-           // System.out.println("Time Passed:" timePassed);
-            lastUpdate=timeNow;
+        } else {
+            update = true;
+            System.out.println("Ka Thump Thump");
+            lastUpdate = timeNow;
             return update;
         }
-   }
+    }
 }
