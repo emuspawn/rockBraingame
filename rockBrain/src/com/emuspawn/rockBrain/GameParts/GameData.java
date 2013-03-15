@@ -10,20 +10,10 @@ package com.emuspawn.rockBrain.GameParts;
 public class GameData {
     Boolean gameExists = false;
 
-    public void load() {
-        if (gameExists) {
-            // Load file blah blah
-            // New lab = file.lab
-            // sandsoftime();   //checks lastTime vs newTime, runs linear update of stats.
-        }
-    }
+    public static void load() {
 
-    public class checkgame {
-        //return file(Gdx.files.internal(save.rck)).exists = true;
-    }
-
-    public class sandsofTime {
-        // int timePassed = TimeNow - lab.lastSaved;
-        //  lab.erode(timePassed);
+        // Load file blah blah
+        // New lab = file.lab
+        // sandsoftime();   //checks lastTime vs newTime, runs linear update of stats.
     }
 }

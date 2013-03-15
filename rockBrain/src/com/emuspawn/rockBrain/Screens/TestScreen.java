@@ -9,10 +9,7 @@ import com.badlogic.gdx.graphics.GLCommon;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.math.Vector3;
-import com.emuspawn.rockBrain.GameParts.Art;
-import com.emuspawn.rockBrain.GameParts.GameSprite;
-import com.emuspawn.rockBrain.GameParts.OverlapTester;
-import com.emuspawn.rockBrain.GameParts.gDraw;
+import com.emuspawn.rockBrain.GameParts.*;
 import com.emuspawn.rockBrain.rockParts.Rock;
 
 
@@ -24,6 +21,7 @@ public class TestScreen implements Screen {
     GameSprite quitbutton;
     Boolean once;
     Rock rock;
+    Lab lab = new Lab();
 
     public TestScreen(Game game) {
         once = true;
@@ -41,8 +39,15 @@ public class TestScreen implements Screen {
     public void update(float deltaTime) {
 
         if (once) {
-            rock.genesis();
-            System.out.println(rock.getFeels(rock.weather, 5));
+            lab.genesis();
+            lab.labSave();
+            try {
+                Thread.sleep(300);
+            } catch (InterruptedException e) {
+                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            }
+            lab.labLoad();
+            lab.labSave();
             once = false;
         }
         if (Gdx.input.justTouched()) {

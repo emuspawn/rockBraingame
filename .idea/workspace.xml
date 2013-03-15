@@ -5,43 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acacadd7-449b-426c-8399-72898c7e87e9" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\David\Programming\rockBraingame\rockBrain\src\com\emuspawn\rockBrain\rockParts\Thought.java" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Opinion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/Inventory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/Lab.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/Weather.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rockBrain-android/assets/data/file.rck" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rockBrain-android/assets/data/rock.txt" />
+      <change type="DELETED" beforePath="C:\Users\David\Programming\rockBraingame\rockBrain-android\assets\data\libgdx.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Programming\rockBraingame\rockBrain-android\assets\data\rocktex.atlas" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Programming\rockBraingame\rockBrain-android\assets\data\rocktex.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Programming\rockBraingame\rockBrain-android\assets\data\splash.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Body.java" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Body.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/CreateScreen.java" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/CreateScreen.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/GameData.java" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/GameData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Rock.java" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Rock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/SettingsScreen.java" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/SettingsScreen.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/TestScreen.java" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/TestScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockBrain.java" afterPath="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockBrain.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rockBraingame.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363210672687" ignored="false" />
+    <file path="/Dummy.txt" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363378915876" ignored="false" />
     <file path="/fragment.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363140535630" ignored="false" />
     <file path="/startGame.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1362944915597" ignored="false" />
     <file path="/MenuScreen.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363134539023" ignored="false" />
     <file path="/GameSprite.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363120248206" ignored="false" />
     <file path="/Brain.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363143928056" ignored="false" />
-    <file path="/Body.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363131922193" ignored="false" />
+    <file path="/Body.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363362850049" ignored="false" />
     <file path="/Organ.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1362946587767" ignored="false" />
     <file path="/Thought.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1362947260954" ignored="false" />
-    <file path="/Rock.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363209334575" ignored="false" />
+    <file path="/Rock.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363376393604" ignored="false" />
     <file path="/Sounds.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363132944115" ignored="false" />
     <file path="/rockBrain.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363202220805" ignored="false" />
     <file path="/Art.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363127553914" ignored="false" />
-    <file path="/GameData.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363210656984" ignored="false" />
+    <file path="/GameData.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363360259326" ignored="false" />
     <file path="/Screen.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1362950672971" ignored="false" />
     <file path="/GameScreen.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363144060153" ignored="false" />
     <file path="$PROJECT_DIR$/../libgdx/demos/superjumper/superjumper/src/com/badlogicgames/superjumper/SuperJumper.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1362955963060" ignored="false" />
     <file path="$PROJECT_DIR$/../libgdx/demos/superjumper/superjumper/src/com/badlogicgames/superjumper/GameScreen.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1362956689362" ignored="false" />
     <file path="$PROJECT_DIR$/../libgdx/demos/superjumper/superjumper/src/com/badlogicgames/superjumper/MainMenuScreen.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1362956040997" ignored="false" />
     <file path="/textureSize.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363106429184" ignored="false" />
-    <file path="/TestScreen.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363208983929" ignored="false" />
+    <file path="/TestScreen.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363376254206" ignored="false" />
     <file path="/Sprite.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363116119659" ignored="false" />
     <file path="/gDraw.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363118738809" ignored="false" />
     <file path="/OverlapTester.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363128857479" ignored="false" />
-    <file path="/SettingsScreen.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363132766372" ignored="false" />
+    <file path="/SettingsScreen.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363373392182" ignored="false" />
     <file path="/Input.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363134037633" ignored="false" />
-    <file path="/CreateScreen.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363134108099" ignored="false" />
+    <file path="/CreateScreen.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363373379953" ignored="false" />
     <file path="/Opinion.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363209389888" ignored="false" />
+    <file path="/Lab.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363381547465" ignored="false" />
+    <file path="/rock.txt" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363361272281" ignored="false" />
+    <file path="/Inventory.java" changelist="acacadd7-449b-426c-8399-72898c7e87e9" time="1363381580082" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +82,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -103,7 +117,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -113,40 +126,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GameData.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/GameData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="15" selection-start="683" selection-end="683" vertical-scroll-proportion="0.73057854">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Opinion.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Opinion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="3" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Rock.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Rock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="0" selection-start="2457" selection-end="2457" vertical-scroll-proportion="0.0">
+            <state line="63" column="29" selection-start="1464" selection-end="1464" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rockBrain.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockBrain.java">
+      <file leaf-file-name="Lab.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/Lab.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="24" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state line="19" column="42" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Inventory.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/Inventory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="30" selection-start="302" selection-end="302" vertical-scroll-proportion="0.2989449">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Weather.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/Weather.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="23" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rock.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rockBrain-android/assets/data/rock.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateScreen.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/CreateScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="46" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SettingsScreen.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/SettingsScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="27" selection-start="1888" selection-end="1888" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Body.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Body.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="26" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -154,39 +201,17 @@
       <file leaf-file-name="TestScreen.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/TestScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="26" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameSprite.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/GameSprite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="0" selection-start="1449" selection-end="1449" vertical-scroll-proportion="0.0">
+            <state line="29" column="153" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rockTextures.pack" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rockBrain-android/assets/textures/rockTextures.pack">
+      <file leaf-file-name="Heart.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Heart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="14" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
+            <state line="5" column="13" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenuScreen.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/MenuScreen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="2" selection-start="1547" selection-end="1752" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -204,6 +229,7 @@
         <option value="David Raab" />
       </list>
     </option>
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -220,30 +246,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/Art.java" />
-        <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/OverlapTester.java" />
-        <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Heart.java" />
-        <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Body.java" />
         <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/Sounds.java" />
-        <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/SettingsScreen.java" />
         <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/Input.java" />
-        <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/CreateScreen.java" />
         <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/MenuScreen.java" />
         <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Brain.java" />
         <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/GameScreen.java" />
         <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockBrain.java" />
-        <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Rock.java" />
-        <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/TestScreen.java" />
         <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Opinion.java" />
         <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/GameData.java" />
+        <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Body.java" />
+        <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/CreateScreen.java" />
+        <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/SettingsScreen.java" />
+        <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Rock.java" />
+        <option value="$PROJECT_DIR$/rockBrain-android/assets/data/rock.txt" />
+        <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/TestScreen.java" />
+        <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/Lab.java" />
+        <option value="$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/Inventory.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
-    <option name="width" value="1874" />
-    <option name="height" value="1096" />
+    <option name="width" value="1696" />
+    <option name="height" value="1036" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -271,7 +297,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -524,7 +550,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -543,9 +569,9 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -566,19 +592,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -606,6 +619,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -717,33 +743,57 @@
       <created>1363144407185</created>
       <updated>1363144407185</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added thought generator">
+      <created>1363210689622</created>
+      <updated>1363210689622</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="1912" y="-8" width="1696" height="1036" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32837406" sideWeight="0.49573106" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.49573106" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Code explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933994" sideWeight="0.49786553" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.50053364" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287827" sideWeight="0.50053364" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32800853" sideWeight="0.4530416" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.18196371" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2709713" sideWeight="0.67199147" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32800853" sideWeight="0.4530416" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1627907" sideWeight="0.67235494" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.4530416" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.49573106" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32800853" sideWeight="0.49573106" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.4530416" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933994" sideWeight="0.49786553" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -813,65 +863,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Organ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/Sounds.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/CreateScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="37" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/Input.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="0" selection-start="2120" selection-end="2120" vertical-scroll-proportion="0.78822196" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Body.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="7" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Brain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="39" selection-start="962" selection-end="962" vertical-scroll-proportion="0.67031765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/GameScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="53" selection-start="3338" selection-end="3338" vertical-scroll-proportion="0.7601314">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/SettingsScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="29" selection-start="2019" selection-end="2019" vertical-scroll-proportion="0.069003284">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rockBrain-android/assets/textures/rockTextures.pack">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="14" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/GameSprite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="0" selection-start="1449" selection-end="1449" vertical-scroll-proportion="0.0">
@@ -882,47 +873,102 @@
     <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/MenuScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="2" selection-start="1547" selection-end="1752" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockBrain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="24" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/TestScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="26" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Opinion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="3" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+        <state line="16" column="0" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Rock.java">
+    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockBrain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="0" selection-start="2457" selection-end="2457" vertical-scroll-proportion="0.0">
+        <state line="15" column="16" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/GameData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="15" selection-start="683" selection-end="683" vertical-scroll-proportion="0.73057854">
+        <state line="19" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rockBrain-android/assets/data/file.rck">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/CreateScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="46" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Body.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="26" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/SettingsScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="27" selection-start="1888" selection-end="1888" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Heart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rockBrain-android/assets/data/rock.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/Screens/TestScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="153" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/rockParts/Rock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="29" selection-start="1464" selection-end="1464" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/Weather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="23" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/Lab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="42" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rockBrain/src/com/emuspawn/rockBrain/GameParts/Inventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="30" selection-start="302" selection-end="302" vertical-scroll-proportion="0.2989449">
           <folding />
         </state>
       </provider>

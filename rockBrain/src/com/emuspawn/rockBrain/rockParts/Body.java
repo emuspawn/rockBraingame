@@ -47,6 +47,10 @@ public class Body {
         }
     }
 
+    public String getOrgans() {
+        String organics = organs[0].stat + "," + organs[1].stat + "," + organs[2].stat + "," + organs[3].stat + "," + organs[4].stat;
+        return organics;
+    }
 
 }
 

@@ -50,7 +50,7 @@ public class SettingsScreen implements Screen {
             if (OverlapTester.pointInRectangle(saveButton, touchPoint.x, touchPoint.y)) {
                 Sounds.alert.play();
                 Rock rock = new Rock();
-                rock.saveRock();
+                rock.save();
                 return;
             }
         }

@@ -1,7 +1,5 @@
 package com.emuspawn.rockBrain.rockParts;
 
-import com.badlogic.gdx.utils.Json;
-
 import static com.badlogic.gdx.math.MathUtils.random;
 
 /**
@@ -41,6 +39,16 @@ public class Rock {
         }
     }
 
+    public void erode() {
+        body.bodyCycle();
+        body.bodyEqualize();
+        for (int i = 0; i < 5; i++) {
+            thought[i] = brain.memory(i);
+        }
+
+
+    }
+
     public void moveRock(int x, int y) {
         locX = x + locX;
         locY = y + locY;
@@ -53,9 +61,11 @@ public class Rock {
         return com;
     }
 
-    public void saveRock() {
-        Json json = new Json();
-        System.out.println(json.prettyPrint(this));
+    public String save() {
+        String rockSave = new String();
+        rockSave = body.getOrgans();
+        System.out.println(body.getOrgans());
+        return rockSave;
     }
 
     public void genesis() {
@@ -87,14 +97,6 @@ public class Rock {
         }
     }
 
-    public String oneWeather(int i) {
-        String what = new String("lovehate:" + (weather[i].lovehate));
-        return what;
-    }
-
-    public String getDog() {
-        return "ID: " + this.dog.id + " lovehate: " + this.dog.lovehate;
-    }
 
     public void opine(Opinion[] g) {
 
